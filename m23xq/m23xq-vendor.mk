@@ -14,7 +14,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m23xq/proprietary/vendor/etc/audconf/OPEN/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/Headset_cal.acdb \
     vendor/samsung/m23xq/proprietary/vendor/etc/audconf/OPEN/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/Speaker_cal.acdb \
     vendor/samsung/m23xq/proprietary/vendor/etc/audconf/OPEN/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/workspaceFile.qwsp \
-    vendor/samsung/m23xq/proprietary/vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E8FC1_AMS660XR01_HD.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ss_dsi_panel_S6E8FC1_AMS660XR01_HD.xml \
+   # vendor/samsung/m23xq/proprietary/vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E8FC1_AMS660XR01_HD.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ss_dsi_panel_S6E8FC1_AMS660XR01_HD.xml \
     vendor/samsung/m23xq/proprietary/vendor/lib/camera/com.samsung.sensor.gc5035.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensor.gc5035.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/camera/com.samsung.sensor.gc5035_macro.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensor.gc5035_macro.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/camera/com.samsung.sensor.hi2021q.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensor.hi2021q.so \
