@@ -19,6 +19,30 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter m23xq,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libfastcvopt
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libfastcvopt.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libfastcvopt.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libthermalclient
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libthermalclient.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libthermalclient.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libskeymaster4device
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := proprietary/lib64/libskeymaster4device.so
