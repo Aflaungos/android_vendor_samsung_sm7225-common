@@ -113,4 +113,22 @@ LOCAL_MODULE_SUFFIX := .apk
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := android.hardware.neuralnetworks@1.3-service-qti-hta
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX := .xml
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := android.hardware.neuralnetworks@1.3-service-qti
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX := .xml
+include $(BUILD_PREBUILT)
+
 endif
