@@ -13,7 +13,7 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libskeymaster4device.so"],
+			srcs: ["proprietary/lib64/libskeymaster4device.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -25,7 +25,7 @@ cc_prebuilt_library_shared {
 android_app_import {
 	name: "CACertService",
 	owner: "samsung",
-	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
+	apk: "proprietary/app/CACertService/CACertService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -36,7 +36,7 @@ android_app_import {
 android_app_import {
 	name: "TimeService",
 	owner: "samsung",
-	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
+	apk: "proprietary/app/TimeService/TimeService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -47,7 +47,7 @@ android_app_import {
 prebuilt_etc_xml {
 	name: "android.hardware.gnss@2.1-service-qti",
 	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml",
+	src: "proprietary/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
@@ -56,7 +56,7 @@ prebuilt_etc_xml {
 prebuilt_etc_xml {
 	name: "android.hardware.health@2.1-samsung",
 	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.health@2.1-samsung.xml",
+	src: "proprietary/etc/vintf/manifest/android.hardware.health@2.1-samsung.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
@@ -65,7 +65,7 @@ prebuilt_etc_xml {
 prebuilt_etc_xml {
 	name: "android.hardware.neuralnetworks@1.3-service-qti-hta",
 	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml",
+	src: "proprietary/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
@@ -74,7 +74,7 @@ prebuilt_etc_xml {
 prebuilt_etc_xml {
 	name: "android.hardware.neuralnetworks@1.3-service-qti",
 	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml",
+	src: "proprietary/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
@@ -83,7 +83,7 @@ prebuilt_etc_xml {
 prebuilt_etc_xml {
 	name: "manifest_android.hardware.drm@1.3-service.widevine",
 	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml",
+	src: "proprietary/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
@@ -97,10 +97,10 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/vendor/lib/libfastcvopt.so"],
+			srcs: ["proprietary/lib/libfastcvopt.so"],
 		},
 		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libfastcvopt.so"],
+			srcs: ["proprietary/lib64/libfastcvopt.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -117,10 +117,10 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/vendor/lib/libthermalclient.so"],
+			srcs: ["proprietary/lib/libthermalclient.so"],
 		},
 		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libthermalclient.so"],
+			srcs: ["proprietary/lib64/libthermalclient.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -132,7 +132,7 @@ cc_prebuilt_library_shared {
 prebuilt_etc_xml {
 	name: "manifest_lights-default-sec",
 	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/lights-default-sec.xml",
+	src: "proprietary/etc/vintf/manifest/lights-default-sec.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
@@ -141,7 +141,7 @@ prebuilt_etc_xml {
 prebuilt_etc_xml {
 	name: "manifest_vendor.qti.hardware.display.composer-service",
 	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml",
+	src: "proprietary/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
