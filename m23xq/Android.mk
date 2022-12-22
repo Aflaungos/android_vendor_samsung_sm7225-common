@@ -21,8 +21,8 @@ ifneq ($(filter m23xq,$(TARGET_DEVICE)),)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libfastcvopt
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libfastcvopt.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libfastcvopt.so
+LOCAL_SRC_FILES_64 := proprietary/lib64/libfastcvopt.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libfastcvopt.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -33,8 +33,8 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libthermalclient
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libthermalclient.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libthermalclient.so
+LOCAL_SRC_FILES_64 := proprietary/lib64/libthermalclient.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libthermalclient.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -104,7 +104,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := CACertService
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/vendor/app/CACertService/CACertService.apk
+LOCAL_SRC_FILES := proprietary/app/CACertService/CACertService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
