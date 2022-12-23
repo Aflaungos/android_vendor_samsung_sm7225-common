@@ -8,7 +8,7 @@ soong_namespace {
 prebuilt_etc_xml {
 	name: "manifest_lights-default-sec",
 	owner: "samsung",
-	src: "proprietary/etc/vintf/manifest/lights-default-sec.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/lights-default-sec.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
