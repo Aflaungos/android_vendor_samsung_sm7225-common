@@ -27,7 +27,7 @@ LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
-LOCAL_SHARED_LIBRARIES := libOpenCL libc++ libc libcdsprpc libdl libfastcvdsp_stub libion liblog libm
+LOCAL_CHECK_ELF_FILES := false
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
@@ -40,7 +40,7 @@ LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
-LOCAL_SHARED_LIBRARIES := libc++ libc libcutils libdl liblog libm
+LOCAL_CHECK_ELF_FILES := false
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
