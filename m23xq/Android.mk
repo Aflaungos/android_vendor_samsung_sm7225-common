@@ -30,6 +30,17 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
+LOCAL_SHARED_LIBRARIES := libOpenCL \
+                          libc++ \
+                          libc \
+                          libcdsprpc \
+                          libcutils \
+                          libdl \
+                          libfastcvdsp_stub \
+                          libion \
+                          liblog \
+                          libm
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := libthermalclient
 LOCAL_MODULE_OWNER := samsung
