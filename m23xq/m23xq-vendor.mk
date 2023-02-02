@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m23xq/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service:system/bin/hw/android.hardware.keymaster@4.0-service \
     vendor/samsung/m23xq/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:system/bin/hw/vendor.display.color@1.0-service \
     vendor/samsung/m23xq/proprietary/vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service:system/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service \
-    vendor/samsung/m23xq/proprietary/vendor/bin/hw/vendor.qti.hardware.display.composer-service:system/bin/hw/vendor.qti.hardware.display.composer-service \
     vendor/samsung/m23xq/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@2.2-service:system/bin/hw/vendor.qti.hardware.perf@2.2-service \
     vendor/samsung/m23xq/proprietary/vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service:system/bin/hw/vendor.qti.hardware.qseecom@1.0-service \
     vendor/samsung/m23xq/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:system/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
