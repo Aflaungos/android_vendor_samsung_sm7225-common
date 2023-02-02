@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m23xq/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/samsung/m23xq/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:system/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/samsung/m23xq/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service:system/bin/hw/android.hardware.gatekeeper@1.0-service \
-    vendor/samsung/m23xq/proprietary/vendor/bin/hw/android.hardware.gnss@2.1-service-qti:system/bin/hw/android.hardware.gnss@2.1-service-qti \
     vendor/samsung/m23xq/proprietary/vendor/bin/hw/android.hardware.health@2.1-service-samsung:system/bin/hw/android.hardware.health@2.1-service-samsung \
     vendor/samsung/m23xq/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service:system/bin/hw/android.hardware.keymaster@4.0-service \
     vendor/samsung/m23xq/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:system/bin/hw/vendor.display.color@1.0-service \
