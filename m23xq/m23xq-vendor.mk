@@ -170,10 +170,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m23xq/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/lib/egl/libq3dtools_adreno.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/lib/egl/libq3dtools_esx.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/hw/android.hardware.gnss@2.1-impl-qti.so:system/lib/hw/android.hardware.gnss@2.1-impl-qti.so \
-    vendor/samsung/m23xq/proprietary/vendor/lib/hw/audio.primary.lito.so:system/lib/hw/audio.primary.lito.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/hw/com.qti.chi.override.so:system/lib/hw/com.qti.chi.override.so \
-    vendor/samsung/m23xq/proprietary/vendor/lib/hw/gralloc.lito.so:system/lib/hw/gralloc.lito.so \
-    vendor/samsung/m23xq/proprietary/vendor/lib/hw/sound_trigger.primary.lito.so:system/lib/hw/sound_trigger.primary.lito.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so:system/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so:system/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so \
@@ -220,7 +217,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m23xq/proprietary/vendor/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/libaudio_log_utils.so:system/lib/libaudio_log_utils.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/libaudio_soundtrigger.so:system/lib/libaudio_soundtrigger.so \
-    vendor/samsung/m23xq/proprietary/vendor/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/libbatching.so:system/lib/libbatching.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/libbauthserver.so:system/lib/libbauthserver.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/libbauthtzcommon.so:system/lib/libbauthtzcommon.so \
@@ -388,7 +384,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m23xq/proprietary/vendor/lib/libsysmon_cdsp_skel.so:system/lib/libsysmon_cdsp_skel.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/libthermalclient.so:system/lib/libthermalclient.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
-    vendor/samsung/m23xq/proprietary/vendor/lib/libtinyxml2_1.so:system/lib/libtinyxml2_1.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/libtriplecam_image_optical_zoom.so:system/lib/libtriplecam_image_optical_zoom.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/libtriplecam_optical_zoom_control.so:system/lib/libtriplecam_optical_zoom_control.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/libtriplecam_video_optical_zoom.so:system/lib/libtriplecam_video_optical_zoom.so \
@@ -475,8 +470,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m23xq/proprietary/vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so:system/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/hw/com.qti.chi.override.so:system/lib64/hw/com.qti.chi.override.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/hw/gatekeeper.mdfpp.so:system/lib64/hw/gatekeeper.mdfpp.so \
-    vendor/samsung/m23xq/proprietary/vendor/lib64/hw/gralloc.lito.so:system/lib64/hw/gralloc.lito.so \
-    vendor/samsung/m23xq/proprietary/vendor/lib64/hw/sound_trigger.primary.lito.so:system/lib64/hw/sound_trigger.primary.lito.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so:system/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so:system/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so \
@@ -519,7 +512,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m23xq/proprietary/vendor/lib64/libadsp_default_listener.so:system/lib64/libadsp_default_listener.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/libadsprpc.so:system/lib64/libadsprpc.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/libaudcal.so:system/lib64/libaudcal.so \
-    vendor/samsung/m23xq/proprietary/vendor/lib64/libaudioalsa.so:system/lib64/libaudioalsa.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/libbatching.so:system/lib64/libbatching.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/libbauthserver.so:system/lib64/libbauthserver.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/libbauthtzcommon.so:system/lib64/libbauthtzcommon.so \
@@ -665,7 +657,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m23xq/proprietary/vendor/lib64/libsysmon_cdsp_skel.so:system/lib64/libsysmon_cdsp_skel.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/libthermalclient.so:system/lib64/libthermalclient.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/libtime_genoff.so:system/lib64/libtime_genoff.so \
-    vendor/samsung/m23xq/proprietary/vendor/lib64/libtinyxml2_1.so:system/lib64/libtinyxml2_1.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/libtriplecam_image_optical_zoom.so:system/lib64/libtriplecam_image_optical_zoom.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/libtriplecam_optical_zoom_control.so:system/lib64/libtriplecam_optical_zoom_control.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/libtriplecam_video_optical_zoom.so:system/lib64/libtriplecam_video_optical_zoom.so \
