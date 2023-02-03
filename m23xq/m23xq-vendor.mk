@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m23xq/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/samsung/m23xq/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:system/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/samsung/m23xq/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service:system/bin/hw/android.hardware.gatekeeper@1.0-service \
-    vendor/samsung/m23xq/proprietary/vendor/bin/hw/android.hardware.health@2.1-service-samsung:system/bin/hw/android.hardware.health@2.1-service-samsung \
     vendor/samsung/m23xq/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service:system/bin/hw/android.hardware.keymaster@4.0-service \
     vendor/samsung/m23xq/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:system/bin/hw/vendor.display.color@1.0-service \
     vendor/samsung/m23xq/proprietary/vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service:system/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service \
@@ -55,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m23xq/proprietary/vendor/etc/dolby/dax-default.xml:system/etc/dolby/dax-default.xml \
     vendor/samsung/m23xq/proprietary/vendor/etc/floating_feature.xml:system/etc/floating_feature.xml \
     vendor/samsung/m23xq/proprietary/vendor/etc/flp.conf:system/etc/flp.conf \
-    vendor/samsung/m23xq/proprietary/vendor/etc/gnss_antenna_info.conf:system/etc/gnss_antenna_info.conf \
     vendor/samsung/m23xq/proprietary/vendor/etc/gpfspath_oem_config.xml:system/etc/gpfspath_oem_config.xml \
     vendor/samsung/m23xq/proprietary/vendor/etc/gps.conf:system/etc/gps.conf \
     vendor/samsung/m23xq/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
@@ -63,8 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m23xq/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:system/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/samsung/m23xq/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:system/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/samsung/m23xq/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:system/etc/init/android.hardware.gatekeeper@1.0-service.rc \
-    vendor/samsung/m23xq/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:system/etc/init/android.hardware.gnss@2.1-service-qti.rc \
-    vendor/samsung/m23xq/proprietary/vendor/etc/init/android.hardware.health@2.1-service-samsung.rc:system/etc/init/android.hardware.health@2.1-service-samsung.rc \
     vendor/samsung/m23xq/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service.rc:system/etc/init/android.hardware.keymaster@4.0-service.rc \
     vendor/samsung/m23xq/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:system/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/samsung/m23xq/proprietary/vendor/etc/init/init.time_daemon.rc:system/etc/init/init.time_daemon.rc \
@@ -169,12 +165,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m23xq/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/lib/egl/libGLESv2_adreno.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/lib/egl/libq3dtools_adreno.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/lib/egl/libq3dtools_esx.so \
-    vendor/samsung/m23xq/proprietary/vendor/lib/hw/android.hardware.gnss@2.1-impl-qti.so:system/lib/hw/android.hardware.gnss@2.1-impl-qti.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/hw/com.qti.chi.override.so:system/lib/hw/com.qti.chi.override.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so:system/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so:system/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so \
-    vendor/samsung/m23xq/proprietary/vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so:system/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/hw/vulkan.adreno.so:system/lib/hw/vulkan.adreno.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/libCB.so:system/lib/libCB.so \
@@ -250,7 +244,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m23xq/proprietary/vendor/lib/libgcs.so:system/lib/libgcs.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/libgeofencing.so:system/lib/libgeofencing.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/libgf_in_system_lib.so:system/lib/libgf_in_system_lib.so \
-    vendor/samsung/m23xq/proprietary/vendor/lib/libgnss.so:system/lib/libgnss.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/libgnsspps.so:system/lib/libgnsspps.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/libgpudataproducer.so:system/lib/libgpudataproducer.so \
@@ -436,7 +429,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m23xq/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.1.so:system/lib/vendor.qti.hardware.vpp@1.1.so \
     vendor/samsung/m23xq/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.2.so:system/lib/vendor.qti.hardware.vpp@1.2.so \
-    vendor/samsung/m23xq/proprietary/vendor/lib/vendor.samsung.hardware.gnss@2.0.so:system/lib/vendor.samsung.hardware.gnss@2.0.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/android.hardware.gatekeeper@1.0-impl.so:system/lib64/android.hardware.gatekeeper@1.0-impl.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/camera/com.samsung.sensor.gc02m1.so:system/lib64/camera/com.samsung.sensor.gc02m1.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/camera/com.samsung.sensor.imx355.so:system/lib64/camera/com.samsung.sensor.imx355.so \
@@ -466,14 +458,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m23xq/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/lib64/egl/libq3dtools_adreno.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/lib64/egl/libq3dtools_esx.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
-    vendor/samsung/m23xq/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so:system/lib64/hw/android.hardware.gnss@2.1-impl-qti.so \
-    vendor/samsung/m23xq/proprietary/vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so:system/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/hw/com.qti.chi.override.so:system/lib64/hw/com.qti.chi.override.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/hw/gatekeeper.mdfpp.so:system/lib64/hw/gatekeeper.mdfpp.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so:system/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so:system/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so \
-    vendor/samsung/m23xq/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so:system/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/hw/vulkan.adreno.so:system/lib64/hw/vulkan.adreno.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/libC2D2.so:system/lib64/libC2D2.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/libCB.so:system/lib64/libCB.so \
@@ -545,7 +534,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m23xq/proprietary/vendor/lib64/libgcs.so:system/lib64/libgcs.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/libgeofencing.so:system/lib64/libgeofencing.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/libgf_in_system_lib.so:system/lib64/libgf_in_system_lib.so \
-    vendor/samsung/m23xq/proprietary/vendor/lib64/libgnss.so:system/lib64/libgnss.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/libgpudataproducer.so:system/lib64/libgpudataproducer.so \
@@ -698,15 +686,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m23xq/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.1.so:system/lib64/vendor.qti.hardware.vpp@1.1.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.2.so:system/lib64/vendor.qti.hardware.vpp@1.2.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth@2.0.so:system/lib64/vendor.samsung.hardware.bluetooth@2.0.so \
-    vendor/samsung/m23xq/proprietary/vendor/lib64/vendor.samsung.hardware.gnss@2.0.so:system/lib64/vendor.samsung.hardware.gnss@2.0.so \
-    vendor/samsung/m23xq/proprietary/vendor/lib64/vendor.samsung.hardware.health@2.0.so:system/lib64/vendor.samsung.hardware.health@2.0.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so:system/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so \
     vendor/samsung/m23xq/proprietary/vendor/lib64/vendor.samsung.hardware.thermal@1.0.so:system/lib64/vendor.samsung.hardware.thermal@1.0.so
 
 PRODUCT_PACKAGES += \
     libskeymaster4device \
     TimeService \
-    android.hardware.gnss@2.1-service-qti \
-    android.hardware.health@2.1-samsung \
     manifest_android.hardware.drm@1.3-service.widevine \
     vendor.samsung.hardware.thermal@1.0-manifest
