@@ -11,3 +11,4 @@ on post-fs-data
 service vendor.tftp_server /vendor/bin/tftp_server
    class core
    user root
+   group root system
