@@ -19,6 +19,30 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter m23xq,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := com.qualcomm.qti.gpudrivers.lito.api30
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/vendor/app/com.qualcomm.qti.gpudrivers.lito.api30/com.qualcomm.qti.gpudrivers.lito.api30.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := CneApp
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/vendor/app/CneApp/CneApp.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libfastcvopt
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libfastcvopt.so
