@@ -1,0 +1,12 @@
+{
+    "Image_Build_IDs": {
+        "common": "Bitra.LA.2.0.c4-00007-STD.PROD-1.402109.10", 
+        "modem": "MPSS.HI.2.0.1.c6.4-00038-BITRA_GEN_PACK-1.402109.10"
+    }, 
+    "Metabuild_Info": {
+        "Meta_Build_ID": "Bitra.LA.2.0.c4-00007-STD.PROD-1.402109.10", 
+        "Product_Flavor": "asic", 
+        "Time_Stamp": "2023-01-20 10:48:13"
+    }, 
+    "Version": "1.0"
+}

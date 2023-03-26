@@ -195,6 +195,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7225-common/proprietary/vendor/firmware/lagoon_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.elf \
     vendor/samsung/sm7225-common/proprietary/vendor/firmware/lagoon_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.mdt \
     vendor/samsung/sm7225-common/proprietary/vendor/firmware/multical.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/multical.bin \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware/nt36672_m23xq_csot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36672_m23xq_csot.bin \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware/nt36672_m23xq_csot_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36672_m23xq_csot_mp.bin \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware/nt36672_m23xq_tianma.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36672_m23xq_tianma.bin \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware/nt36672_m23xq_tianma_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36672_m23xq_tianma_mp.bin \
     vendor/samsung/sm7225-common/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/samsung/sm7225-common/proprietary/vendor/firmware/nfc/libpn557_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/libpn557_fw.so \
     vendor/samsung/sm7225-common/proprietary/vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini \
@@ -202,6 +206,73 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7225-common/proprietary/vendor/firmware/wlan/qca_cld/bdwlan.bin1:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/bdwlan.bin1 \
     vendor/samsung/sm7225-common/proprietary/vendor/firmware/wlan/qca_cld/regdb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/regdb.bin \
     vendor/samsung/sm7225-common/proprietary/vendor/firmware/wlanmdsp.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/wlanmdsp.mbn \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/a615_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/a615_zap.b00 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/a615_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/a615_zap.b01 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/a615_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/a615_zap.b02 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/a615_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/a615_zap.mdt \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b00 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b01 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b02 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b03 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b04 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b05 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b06 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b07 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b08:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b08 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b09:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b09 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b10:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b10 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b11:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b11 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b12:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b12 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b13:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b13 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b14:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b14 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b15:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b15 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b16:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b16 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b17:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b17 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b18:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b18 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b19:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b19 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b20:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b20 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b21:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b21 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b22:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b22 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b23:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b23 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b24:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b24 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b25:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b25 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b26:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b26 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b27:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b27 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b28:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b28 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b29:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b29 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b30:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b30 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b31:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b31 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b32:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b32 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b33:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b33 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b34:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b34 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.b35:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.b35 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.mdt \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsp.mdt \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adspua.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adspua.jsn \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adspr.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adspr.jsn \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/adsps.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/adsps.jsn \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/authhat.b00:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/authhat.b00 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/authhat.b01:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/authhat.b01 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/authhat.b02:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/authhat.b02 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/authhat.b03:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/authhat.b03 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/authhat.b04:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/authhat.b04 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/authhat.b05:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/authhat.b05 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/authhat.b06:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/authhat.b06 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/authhat.b07:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/authhat.b07 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/authhat.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/authhat.mdt \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/bdwlan.10e:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/bdwlan.10e \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/bdwlan.10f:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/bdwlan.10f \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/bdwlan.102:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/bdwlan.102 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/bdwlan.104:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/bdwlan.104 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/bdwlan.105:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/bdwlan.105 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/bdwlan.106:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/bdwlan.106 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/bdwlan.107:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/bdwlan.107 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/bdwlan.108:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/bdwlan.108 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/bdwlan.109:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/bdwlan.109 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/bdwlan.111:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/bdwlan.111 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/bdwlan.202:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/bdwlan.202 \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/image/wlanmdsp.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/image/wlanmdsp.mbn \
+    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt/verinfo/ver_info.txt:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt/verinfo/ver_info.txt \
     vendor/samsung/sm7225-common/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
     vendor/samsung/sm7225-common/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
     vendor/samsung/sm7225-common/proprietary/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so \
