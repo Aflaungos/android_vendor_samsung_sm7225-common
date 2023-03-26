@@ -776,5 +776,4 @@ PRODUCT_PACKAGES += \
     CACertService \
     TimeService \
     manifest_android.hardware.drm@1.3-service.widevine \
-    CneApp \
     com.qualcomm.qti.gpudrivers.lito.api30
