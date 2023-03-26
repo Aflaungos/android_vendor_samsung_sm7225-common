@@ -6,9 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/sm7225-common
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/sm7225-common/proprietary/vendor/firmware_mnt:$(TARGET_COPY_OUT_VENDOR)/firmware_mnt \
-    vendor/samsung/sm7225-common/proprietary/vendor/firmware-modem:$(TARGET_COPY_OUT_VENDOR)/firmware-modem \
-    vendor/samsung/sm7225-common/proprietary/vendor/bt_firmware:$(TARGET_COPY_OUT_VENDOR)/bt_firmware \
     vendor/samsung/sm7225-common/proprietary/vendor/system_ext/lib/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/fm_helium.so \
     vendor/samsung/sm7225-common/proprietary/vendor/system_ext/lib/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libfm-hci.so \
     vendor/samsung/sm7225-common/proprietary/vendor/system_ext/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.fm@1.0.so \
