@@ -775,5 +775,4 @@ PRODUCT_PACKAGES += \
     libskeymaster4device \
     CACertService \
     TimeService \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    com.qualcomm.qti.gpudrivers.lito.api30
+    manifest_android.hardware.drm@1.3-service.widevine
