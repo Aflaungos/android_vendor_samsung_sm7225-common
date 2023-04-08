@@ -16,8 +16,11 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/m23xq/proprietary/system_ext/bin/perfservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/perfservice \
+    vendor/samsung/m23xq/proprietary/system_ext/etc/init/perfservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/perfservice.rc \
     vendor/samsung/m23xq/proprietary/system_ext/lib/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/fm_helium.so \
+    vendor/samsung/m23xq/proprietary/system_ext/lib/vendor.samsung.hardware.miscpower@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.samsung.hardware.miscpower@2.0.so \
     vendor/samsung/m23xq/proprietary/system_ext/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/fm_helium.so \
+    vendor/samsung/m23xq/proprietary/system_ext/lib64/vendor.samsung.hardware.miscpower@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.samsung.hardware.miscpower@2.0.so \
     vendor/samsung/m23xq/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/samsung/m23xq/proprietary/vendor/bin/cdsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/cdsprpcd \
     vendor/samsung/m23xq/proprietary/vendor/bin/dspservice:$(TARGET_COPY_OUT_VENDOR)/bin/dspservice \
