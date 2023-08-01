@@ -13,14 +13,3 @@ prebuilt_etc_xml {
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
 }
-
-android_app_import {
-	name: "SecTelephonyProvider",
-	owner: "samsung",
-	apk: "proprietary/system/priv-app/SecTelephonyProvider/SecTelephonyProvider.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
