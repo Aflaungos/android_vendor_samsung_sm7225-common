@@ -22,7 +22,10 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libril.so"],
+			srcs: ["proprietary/vendor/lib64/libril_sem.so"],
+		},
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libril_sem.so"],
 		},
 	},
 	compile_multilib: "both",
