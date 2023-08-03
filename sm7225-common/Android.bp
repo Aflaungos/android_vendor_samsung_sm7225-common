@@ -13,18 +13,3 @@ prebuilt_etc_xml {
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
 }
-
-cc_prebuilt_library_shared {
-	name: "libril",
-	owner: "samsung",
-	vendor: true,
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libril_sem.so"],
-		},
-        },
-        compile_multilib: "first",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
