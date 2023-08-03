@@ -25,7 +25,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib64/libril_sem.so"],
 		},
         },
-        compile_multilib: "arm64",
+        compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
