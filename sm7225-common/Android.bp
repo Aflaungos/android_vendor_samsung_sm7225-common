@@ -20,12 +20,11 @@ cc_prebuilt_library_shared {
 	strip: {
 		none: true,
 	},
-	target: {
-		android_arm64: {
+	arch: {
+		arm64: {
 			srcs: ["proprietary/vendor/lib64/libril_sem.so"],
 		},
-	},
-	compile_multilib: "64",
+        },
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
