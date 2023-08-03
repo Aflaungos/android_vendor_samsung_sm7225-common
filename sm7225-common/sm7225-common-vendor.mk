@@ -990,6 +990,7 @@ PRODUCT_PACKAGES += \
     libskeymaster4device \
     CACertService \
     TimeService \
+    libril \
     com.samsung.android.camera.unihal.signed \
     android.hardware.neuralnetworks@1.3-service-qti-hta \
     android.hardware.neuralnetworks@1.3-service-qti \
