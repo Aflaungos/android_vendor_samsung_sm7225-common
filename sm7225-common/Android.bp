@@ -17,9 +17,7 @@ prebuilt_etc_xml {
 cc_prebuilt_library_shared {
 	name: "libril",
 	owner: "samsung",
-	strip: {
-		none: true,
-	},
+	vendor: true,
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libril_sem.so"],
