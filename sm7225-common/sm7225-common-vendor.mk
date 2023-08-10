@@ -177,20 +177,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7225-common/proprietary/vendor/firmware/crnv21.b71:$(TARGET_COPY_OUT_VENDOR)/firmware/crnv21.b71 \
     vendor/samsung/sm7225-common/proprietary/vendor/firmware/crnv21.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crnv21.bin \
     vendor/samsung/sm7225-common/proprietary/vendor/firmware/dax_param.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dax_param.bin \
-    vendor/samsung/sm7225-common/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
-    vendor/samsung/sm7225-common/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
-    vendor/samsung/sm7225-common/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
-    vendor/samsung/sm7225-common/proprietary/vendor/firmware/ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b03 \
-    vendor/samsung/sm7225-common/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
-    vendor/samsung/sm7225-common/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
-    vendor/samsung/sm7225-common/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
-    vendor/samsung/sm7225-common/proprietary/vendor/firmware/lagoon_ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.b00 \
-    vendor/samsung/sm7225-common/proprietary/vendor/firmware/lagoon_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.b01 \
-    vendor/samsung/sm7225-common/proprietary/vendor/firmware/lagoon_ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.b02 \
-    vendor/samsung/sm7225-common/proprietary/vendor/firmware/lagoon_ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.b03 \
-    vendor/samsung/sm7225-common/proprietary/vendor/firmware/lagoon_ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.b04 \
-    vendor/samsung/sm7225-common/proprietary/vendor/firmware/lagoon_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.elf \
-    vendor/samsung/sm7225-common/proprietary/vendor/firmware/lagoon_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.mdt \
     vendor/samsung/sm7225-common/proprietary/vendor/firmware/multical.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/multical.bin \
     vendor/samsung/sm7225-common/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/samsung/sm7225-common/proprietary/vendor/firmware/nfc/libpn557_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/libpn557_fw.so \
