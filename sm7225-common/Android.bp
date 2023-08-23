@@ -13,3 +13,9 @@ prebuilt_etc_xml {
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
 }
+
+cc_prebuilt_library_shared {
+    name: "vendor.samsung.hardware.sysinput@1.2",
+    vendor: true,
+    srcs: ["vendor.samsung.hardware.sysinput@1.2.so"],
+}
