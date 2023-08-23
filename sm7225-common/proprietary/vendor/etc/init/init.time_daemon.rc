@@ -13,7 +13,6 @@ service time_daemon /vendor/bin/time_daemon
     group system readproc
     capabilities SYS_TIME
 
-    
 service time_client /vendor/bin/time_client
     class main
     user system

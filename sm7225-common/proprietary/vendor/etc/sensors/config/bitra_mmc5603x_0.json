@@ -2,7 +2,7 @@
   "config":{
     "hw_platform": ["MTP", "Dragon", "Surf", "IDP"],
     "soc_id": ["355", "365", "366", "434", "459"],
-    "revision": ["0", "1"]
+    "revision": ["0"]
   },
   "mmc5603x_0_platform":{
     "owner": "sns_mmc5603x",
@@ -33,7 +33,7 @@
         "data": "2"
       },
       "vddio_rail":{ "type": "str", "ver": "0",
-        "data": "/pmic/client/sensor_vddio"
+        "data": "/pmic/client/dummy_vdd"
       },
       "rigid_body_type":{ "type": "int", "ver": "0",
       "data": "0"
@@ -42,13 +42,13 @@
     ".orient":{
       "owner": "sns_mmc5603x",
       "x":{ "type": "str", "ver": "0",
-        "data": "-x"
+        "data": "-y"
       },
       "y":{ "type": "str", "ver": "0",
-        "data": "+y"
+        "data": "+x"
       },
       "z":{ "type": "str", "ver": "0",
-        "data": "-z"
+        "data": "+z"
       }
     },
     ".mag":{
@@ -58,31 +58,31 @@
         ".corr_mat":{
           "owner": "sns_mmc5603x",
           "0_0":{ "type": "flt", "ver": "0",
-            "data": "1.0"
+            "data": "1.005"
           },
           "0_1":{ "type": "flt", "ver": "0",
-            "data": "0.0"
+            "data": "-0.009"
           },
           "0_2":{ "type": "flt", "ver": "0",
-            "data": "0.0"
+            "data": "0.001"
           },
           "1_0":{ "type": "flt", "ver": "0",
-            "data": "0.0"
+            "data": "-0.009"
           },
           "1_1":{ "type": "flt", "ver": "0",
-            "data": "1.0"
+            "data": "0.971"
           },
           "1_2":{ "type": "flt", "ver": "0",
-            "data": "0.0"
+            "data": "0.003"
           },
           "2_0":{ "type": "flt", "ver": "0",
-            "data": "0.0"
+            "data": "0.001"
           },
           "2_1":{ "type": "flt", "ver": "0",
-            "data": "0.0"
+            "data": "0.003"
           },
           "2_2":{ "type": "flt", "ver": "0",
-            "data": "1.0"
+            "data": "1.024"
           }
         },
         ".bias":{
