@@ -15,7 +15,18 @@ prebuilt_etc_xml {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.samsung.hardware.sysinput@1.2",
-    vendor: true,
-    srcs: ["vendor.samsung.hardware.sysinput@1.2.so"],
+	name: "vendor.samsung.hardware.sysinput@1.2",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.sysinput@1.2.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
 }
