@@ -62,17 +62,6 @@ cc_prebuilt_library_shared {
 	soc_specific: true,
 }
 
-android_app_import {
-	name: "CACertService",
-	owner: "samsung",
-	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
 dex_import {
 	name: "audiosphere",
 	owner: "samsung",
