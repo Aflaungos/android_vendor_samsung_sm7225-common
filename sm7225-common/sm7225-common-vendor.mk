@@ -1047,7 +1047,6 @@ PRODUCT_PACKAGES += \
     libskeymaster4device \
     CACertService \
     audiosphere \
-    android.hardware.gnss@2.1-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti-hta \
     android.hardware.neuralnetworks@1.3-service-qti \
     manifest_android.hardware.drm@1.3-service.widevine
