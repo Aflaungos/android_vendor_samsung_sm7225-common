@@ -1046,7 +1046,6 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libskeymaster4device \
     CACertService \
-    TimeService \
     audiosphere \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti-hta \
