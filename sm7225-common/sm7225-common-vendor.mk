@@ -6,13 +6,13 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/sm7225-common
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/sm7225-common/proprietary/system_root/system/system_ext/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM)/system_root/system/system_ext/etc/permissions/audiosphere.xml \
-    vendor/samsung/sm7225-common/proprietary/system_root/system/system_ext/lib/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/system_root/system/system_ext/lib/fm_helium.so \
-    vendor/samsung/sm7225-common/proprietary/system_root/system/system_ext/lib/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/system_root/system/system_ext/lib/libfm-hci.so \
-    vendor/samsung/sm7225-common/proprietary/system_root/system/system_ext/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/system_root/system/system_ext/lib/vendor.qti.hardware.fm@1.0.so \
-    vendor/samsung/sm7225-common/proprietary/system_root/system/system_ext/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/system_root/system/system_ext/lib64/fm_helium.so \
-    vendor/samsung/sm7225-common/proprietary/system_root/system/system_ext/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/system_root/system/system_ext/lib64/libfm-hci.so \
-    vendor/samsung/sm7225-common/proprietary/system_root/system/system_ext/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/system_root/system/system_ext/lib64/vendor.qti.hardware.fm@1.0.so \
+    vendor/samsung/sm7225-common/proprietary/system_ext/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM)/system_ext/etc/permissions/audiosphere.xml \
+    vendor/samsung/sm7225-common/proprietary/system_ext/lib/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/system_ext/lib/fm_helium.so \
+    vendor/samsung/sm7225-common/proprietary/system_ext/lib/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/system_ext/lib/libfm-hci.so \
+    vendor/samsung/sm7225-common/proprietary/system_ext/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/system_ext/lib/vendor.qti.hardware.fm@1.0.so \
+    vendor/samsung/sm7225-common/proprietary/system_ext/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/system_ext/lib64/fm_helium.so \
+    vendor/samsung/sm7225-common/proprietary/system_ext/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/system_ext/lib64/libfm-hci.so \
+    vendor/samsung/sm7225-common/proprietary/system_ext/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/system_ext/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/samsung/sm7225-common/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
     vendor/samsung/sm7225-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/samsung/sm7225-common/proprietary/vendor/bin/cdsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/cdsprpcd \
