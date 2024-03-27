@@ -977,11 +977,12 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libskeymaster4device \
     CACertService \
-    QCC-TR-UI \
     TimeService \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti-hta \
     android.hardware.neuralnetworks@1.3-service-qti \
     manifest_android.hardware.drm@1.3-service.widevine \
     manifest_lights-default-sec \
-    manifest_vendor.qti.hardware.display.composer-service
+    manifest_vendor.qti.hardware.display.composer-service \
+    CneApp \
+    com.qualcomm.qti.gpudrivers.lito.api30
