@@ -984,5 +984,4 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm@1.3-service.widevine \
     manifest_lights-default-sec \
     manifest_vendor.qti.hardware.display.composer-service \
-    CneApp \
     com.qualcomm.qti.gpudrivers.lito.api30
