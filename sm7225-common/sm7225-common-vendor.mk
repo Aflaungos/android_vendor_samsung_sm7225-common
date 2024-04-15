@@ -6,6 +6,16 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/sm7225-common
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/libtriplecam_image_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtriplecam_image_optical_zoom.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/libtriplecam_optical_zoom_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtriplecam_optical_zoom_control.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/libtriplecam_video_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtriplecam_video_optical_zoom.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc2.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/libtriplecam_image_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtriplecam_image_optical_zoom.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/libtriplecam_optical_zoom_control.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtriplecam_optical_zoom_control.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/libtriplecam_video_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtriplecam_video_optical_zoom.so \
     vendor/samsung/sm7225-common/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
     vendor/samsung/sm7225-common/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
     vendor/samsung/sm7225-common/proprietary/vendor/lib/libchilog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchilog.so \
