@@ -1045,6 +1045,5 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-qti-hta \
     android.hardware.neuralnetworks@1.3-service-qti \
     manifest_android.hardware.drm@1.3-service.widevine \
-    manifest_lights-default-sec \
     com.qualcomm.qti.gpudrivers.lito.api30 \
     manifest_vendor.qti.hardware.display.composer-service
