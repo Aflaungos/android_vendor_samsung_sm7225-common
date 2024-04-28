@@ -6,6 +6,40 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/sm7225-common
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/camera/components/libMOTION.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/libMOTION.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/camera/components/com.qti.stats.statsgenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.statsgenerator.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/camera/components/com.qti.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlib.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/ois_mcu_stm32g_fw.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/ois_mcu_stm32g_fw.bin \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/components/com.samsung.node.uniplugin_recording.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.samsung.node.uniplugin_recording.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/components/com.samsung.node.uniplugin_recording.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.samsung.node.uniplugin_recording.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/components/com.ss.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.ss.stats.pdlib.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/camera/components/com.ss.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.ss.stats.pdlib.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/components/com.ss.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.ss.stats.awb.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/camera/components/com.ss.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.ss.stats.awb.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/components/com.ss.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.ss.stats.af.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/camera/components/com.ss.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.ss.stats.af.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/components/com.ss.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.ss.stats.aec.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/camera/components/com.ss.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.ss.stats.aec.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/components/com.samsung.node.uniplugin_vdis.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.samsung.node.uniplugin_vdis.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/camera/components/com.samsung.node.uniplugin_vdis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.samsung.node.uniplugin_vdis.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/components/com.samsung.node.uniplugin_recording.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.samsung.node.uniplugin_recording.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/camera/components/com.samsung.node.uniplugin_recording.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.samsung.node.uniplugin_recording.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/components/com.samsung.node.smooth_transition.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.samsung.node.smooth_transition.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/components/com.samsung.node.multi_frame_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.samsung.node.multi_frame_video_hdr.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/camera/components/com.samsung.node.multi_frame_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.samsung.node.multi_frame_video_hdr.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/components/com.qti.stats.tracker.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.tracker.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/camera/components/com.qti.stats.tracker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.tracker.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/camera/components/com.qti.stats.localhistogram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.localhistogram.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/components/com.qti.hvx.binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.hvx.binning.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/camera/components/com.qti.hvx.binning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.hvx.binning.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/components/com.qti.hvx.addconstant.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.hvx.addconstant.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/camera/components/com.qti.hvx.addconstant.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.hvx.addconstant.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/com.samsung.tuned.sony_imx355_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.tuned.sony_imx355_front.bin \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/camera/com.samsung.tuned.sony_imx355_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.sony_imx355_front.bin \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.default.bin \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
+    vendor/samsung/sm7225-common/proprietary/vendor/bin/loadalgo.so:$(TARGET_COPY_OUT_VENDOR)/bin/loadalgo.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/libloadalgo_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloadalgo_stub.so \
     vendor/samsung/sm7225-common/proprietary/vendor/lib64/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++_shared.so \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/lib/libwfdaac_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdaac_vendor.so \
@@ -343,6 +377,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/com.samsung.tuned.lsi_gc02m1.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.tuned.lsi_gc02m1.bin \
     vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/com.samsung.tuned.lsi_s5kjn1.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.tuned.lsi_s5kjn1.bin \
     vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/com.samsung.tuned.sony_imx355.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.tuned.sony_imx355.bin \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/camera/com.samsung.tuned.sony_imx355.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.sony_imx355.bin \
     vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.camx.chiiqutils.so \
     vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv2.so \
     vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv3.so \
