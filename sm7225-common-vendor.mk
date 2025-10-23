@@ -65,6 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/qmipriod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/shsusrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/shsusrd.rc \
+    vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.qti.adsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-service.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
@@ -110,6 +111,12 @@ PRODUCT_PACKAGES += \
     btaudio_offload_if \
     libdepthmapwrapper \
     com.qualcomm.qti.ant@1.0 \
+    eglSubDriverAndroid \
+    libEGL_adreno \
+    libGLESv1_CM_adreno \
+    libGLESv2_adreno \
+    libq3dtools_adreno \
+    libq3dtools_esx \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gnss@2.1-impl-qti \
     audio.bluetooth_qti.default \
@@ -120,8 +127,12 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qseecom@1.0-impl \
     vendor.samsung.hardware.bluetooth.a2dp@1.0-impl \
     vendor.samsung.hardware.gnss@2.0-impl-sec \
+    vulkan.adreno \
     lib_SoundAlive_3DPosition_ver202 \
     libBeauty_v4.camera.samsung \
+    libC2D2 \
+    libc2d30_bltlib \
+    libCB \
     libDualCamBokehCapture.camera.samsung \
     libEventFinder.camera.samsung \
     libFace_Landmark_API.camera.samsung \
@@ -140,10 +151,13 @@ PRODUCT_PACKAGES += \
     libSceneDetector_v1.camera.samsung \
     libSecureUILib \
     libStDrvInt \
+    libVkLayer_q3dtools \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
     libadiertac \
+    libadreno_app_profiles \
+    libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
     libarcsoft_multi_frame_video_hdr \
@@ -192,6 +206,8 @@ PRODUCT_PACKAGES += \
     libgnss \
     libgnsspps \
     libgps.utils \
+    libgpudataproducer \
+    libgsl \
     libhand_interaction.uniplugin@1.0 \
     libhandgesture.arcsoft \
     libhigh_dynamic_range_bokeh \
@@ -209,6 +225,8 @@ PRODUCT_PACKAGES += \
     liblivefocus_capture_engine \
     liblivefocus_preview_engine \
     liblivefocus_preview_interface \
+    libllvm-glnext \
+    libllvm-qcom \
     libloc_api_v02 \
     libloc_core \
     libloc_socket \
@@ -414,6 +432,11 @@ PRODUCT_PACKAGES += \
     libcamxtintlessalgo \
     libchilog \
     libcom.qti.chinodeutils \
+    libdiag \
+    libdisp-aba \
+    libdisplayqos \
+    libdisplayskuutils \
+    libdpps \
     libdualcam_refocus_video \
     libengmode15 \
     libengmode2lite \
@@ -421,6 +444,7 @@ PRODUCT_PACKAGES += \
     libengmode_server \
     libengmode_tlc \
     libfocuspeaking_interface \
+    libhdr_tm \
     libhexagon_nn_stub \
     libhta \
     libhypervintf \
@@ -434,6 +458,7 @@ PRODUCT_PACKAGES += \
     libnlnetmgr \
     libofflinelog \
     libqcwrappercommon \
+    libqseed3 \
     libreffeature \
     libremosaiclib \
     libsavscmn \
@@ -443,6 +468,11 @@ PRODUCT_PACKAGES += \
     libscveObjectSegmentation_stub \
     libscveObjectTracker \
     libscveObjectTracker_stub \
+    libsdm-color \
+    libsdm-colormgr-algo \
+    libsdm-diag \
+    libsdm-disp-vndapis \
+    libsdmextension \
     libsec-ril \
     libsecril-client \
     libsensorlistener \
@@ -473,6 +503,12 @@ PRODUCT_PACKAGES += \
     unnhal-acc-adreno \
     unnhal-acc-common \
     unnhal-acc-hvx \
+    vendor.display.color@1.1 \
+    vendor.display.color@1.2 \
+    vendor.display.color@1.3 \
+    vendor.display.color@1.4 \
+    vendor.display.color@1.5 \
+    vendor.display.postproc@1.0 \
     vendor.qti.data.slm@1.0 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.qti.hardware.data.connection@1.0 \
@@ -533,6 +569,7 @@ PRODUCT_PACKAGES += \
     macloader \
     nxp.android.hardware.nfc@1.2-service \
     rild \
+    vendor.display.color@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.iop@2.0-service \
     vendor.qti.hardware.perf@2.2-service \
@@ -552,6 +589,8 @@ PRODUCT_PACKAGES += \
     pm-proxy \
     pm-service \
     pm_proxy_helper \
+    ppd \
+    qdcmss \
     qrtr-cfg \
     qrtr-lookup \
     qrtr-ns \
