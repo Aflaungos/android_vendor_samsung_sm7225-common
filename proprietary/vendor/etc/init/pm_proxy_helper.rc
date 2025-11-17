@@ -1,0 +1,10 @@
+service vendor.per_proxy_helper /vendor/bin/pm_proxy_helper
+    class core
+    user system
+    group system
+    disabled
+    oneshot
+
+on post-fs-data
+    start vendor.per_proxy_helper
+
