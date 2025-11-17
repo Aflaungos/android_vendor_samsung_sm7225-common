@@ -5661,6 +5661,28 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "vendor.qti.qspmhal@1.0",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/vendor.qti.qspmhal@1.0.so"],
+			shared_libs: [ ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.qti.qspmhal@1.0.so"],
+			shared_libs: [ ],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "vendor.samsung.hardware.bluetooth.a2dp@1.0",
 	owner: "samsung",
 	strip: {
@@ -8240,6 +8262,24 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "vendor.qti.qspmhal@1.0-impl",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.qti.qspmhal@1.0-impl.so"],
+			shared_libs: [ ],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "vendor.samsung.hardware.biometrics.fingerprint@3.0",
 	owner: "samsung",
 	strip: {
@@ -9039,6 +9079,14 @@ sh_binary {
 	owner: "samsung",
 	src: "proprietary/vendor/bin/time_daemon",
 	filename: "time_daemon",
+	soc_specific: true,
+}
+
+sh_binary {
+	name: "vendor.qti.qspmhal@1.0-service",
+	owner: "samsung",
+	src: "proprietary/vendor/bin/vendor.qti.qspmhal@1.0-service",
+	filename: "vendor.qti.qspmhal@1.0-service",
 	soc_specific: true,
 }
 
